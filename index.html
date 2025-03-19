@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restron - Your Favourite Restaurant</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- navbar section -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid px-5" style="background-color: transparent;">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-utensils"></i> Restoran
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SERVICE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">MENU</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PAGES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                    <li class="nav-item mt-2">
+                        <a class="book-btn ms-3" href="#">BOOK A TABLE</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- hero section -->
+    <div class="container p-0">
+    <section class="hero-section">
+            <div class="hero-content px-4 slide-in-fwd-left">
+                <h1>Enjoy Our<br>Delicious Meal</h1>
+                <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et <br>eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore <br>erat amet</p>
+                <a href="#" class="book-btn fw-bold reserve-btn">BOOK A TABLE</a>
+            </div>
+            <div class="hero-image">
+                <img src="assets/img/hero.png" alt="">
+            </div>
+        </section>
+    </div>
+
+    <!-- features section  -->
+    <div class="container">
+    <section class="features py-4">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card h-100 text-center p-4 shadow slide-in-bottom">
+                        <div class="text-center mb-4">
+                            <i class="fas fa-user-tie" style="font-size: 48px; color: #FFA500;"></i>
+                        </div>
+                        <h3 class="h4 mb-3">Master Chefs</h3>
+                        <p class="description">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card h-100 text-center p-4 shadow slide-in-bottom">
+                        <div class="text-center mb-4">
+                            <i class="fas fa-utensils" style="font-size: 48px; color: #FFA500;"></i>
+                        </div>
+                        <h3 class="h4 mb-3">Quality Food</h3>
+                        <p class="description">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card h-100 text-center p-4 shadow slide-in-bottom">
+                        <div class="text-center mb-4">
+                            <i class="fas fa-cart-plus" style="font-size: 48px; color: #FFA500;"></i>
+                        </div>
+                        <h3 class="h4 mb-3">Online Order</h3>
+                        <p class="description">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card h-100 text-center p-4 shadow slide-in-bottom">
+                        <div class="text-center mb-4">
+                            <i class="fas fa-headset" style="font-size: 48px; color: #FFA500;"></i>
+                        </div>
+                        <h3 class="h4 mb-3">24/7 Service</h3>
+                        <p class="description">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- about us section  -->
+    <div class="container">
+    <section class="about-section py-5">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-images">
+                        <div class="row g-3">
+                            <div class="col-6">
+                                <img src="assets/img/about-1.jpg" alt="" class="img-fluid pop-in">
+                            </div>
+                            <div class="col-6">
+                                <img src="assets/img/about-2.jpg" alt="" class="img-fluid img-2 pop-in">
+                            </div>
+                            <div class="col-6">
+                                <img src="assets/img/about-3.jpg" alt="" class="img-fluid img-3 pop-in">
+                            </div>
+                            <div class="col-6">
+                                <img src="assets/img/about-4.jpg" alt="" class="img-fluid pop-in">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 ps-lg-5">
+                    <div class="about-content mt-4 mt-lg-0 fade-in">
+                        <span class="about-subtitle fs-3">About Us</span>
+                        <h2 class="about-title">Welcome to <i class="fas fa-utensils"></i> Restoran</h2>
+                        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos erat ipsum et lorem et sit, sed stet lorem sit.</p>
+                        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                        <div class="stats row g-4">
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center">
+                                    <h1 class="stats-number mt-2 counter" id="experienceCounter" data-target="15">0</h1>
+                                    <div class="ms-3">
+                                        <p class="mb-0">Years of</p>
+                                        <h3 class="stats-title mb-4">EXPERIENCE</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center">
+                                    <h1 class="stats-number mt-2 counter" id="chefsCounter" data-target="50">0</h1>
+                                    <div class="ms-3">
+                                        <p class="mb-0">Popular</p>
+                                        <h3 class="stats-title mb-4">MASTER CHEFS</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="read-more">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- food menu section  -->
+    <div class="container">
+    <section class="menu-section py-5 slide-up">
+        <div class="row text-center mb-2">
+            <div class="col-12">
+                <span class="menu-subtitle fs-3">Food Menu</span>
+                <h2 class="menu-title">Most Popular Items</h2>
+            </div>
+        </div>
+        
+        <div class="menu-tabs mb-5">
+            <ul class="nav nav-pills justify-content-center mb-5" id="menuTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active text-black" id="breakfast-tab" data-bs-toggle="pill" data-bs-target="#breakfast" type="button" role="tab">
+                        <i class="fas fa-coffee me-2" style="color: #FFA500;"></i> Popular Breakfast
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link text-black" id="lunch-tab" data-bs-toggle="pill" data-bs-target="#lunch" type="button" role="tab">
+                        <i class="fas fa-hamburger me-2" style="color: #FFA500;"></i> Special Launch
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link text-black" id="dinner-tab" data-bs-toggle="pill" data-bs-target="#dinner" type="button" role="tab">
+                        <i class="fas fa-utensils me-2" style="color: #FFA500;"></i> Lovely Dinner
+                    </button>
+                </li>
+            </ul>
+            
+            <div class="tab-content" id="menuTabsContent">
+                <!-- Breakfast Menu -->
+                <div class="tab-pane fade show active" id="breakfast" role="tabpanel" aria-labelledby="breakfast-tab">
+                    <div class="row g-4">
+                        <div class="col-lg-6">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid" src="assets/img/menu-1.jpg" alt="" style="width: 80px;">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span style="font-weight: 800;">Chicken Burger</span>
+                                        <span class="text-primary">$115</span>
+                                    </h5>
+                                    <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid" src="assets/img/menu-2.jpg" alt="" style="width: 80px;">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span style="font-weight: 800;">Chicken Burger</span>
+                                        <span class="text-primary">$115</span>
+                                    </h5>
+                                    <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid" src="assets/img/menu-3.jpg" alt="" style="width: 80px;">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span style="font-weight: 800;">Chicken Burger</span>
+                                        <span class="text-primary">$115</span>
+                                    </h5>
+                                    <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid" src="assets/img/menu-4.jpg" alt="" style="width: 80px;">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span style="font-weight: 800;">Chicken Burger</span>
+                                        <span class="text-primary">$115</span>
+                                    </h5>
+                                    <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Lunch Menu -->
+                <div class="tab-pane fade" id="lunch" role="tabpanel" aria-labelledby="lunch-tab">
+                    <div class="row g-4">
+                        <div class="col-lg-6">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid" src="assets/img/menu-5.jpg" alt="" style="width: 80px;">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span style="font-weight: 800;">Chicken Burger</span>
+                                        <span class="text-primary">$115</span>
+                                    </h5>
+                                    <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid" src="assets/img/menu-6.jpg" alt="" style="width: 80px;">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span style="font-weight: 800;">Chicken Burger</span>
+                                        <span class="text-primary">$115</span>
+                                    </h5>
+                                    <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid" src="assets/img/menu-7.jpg" alt="" style="width: 80px;">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span style="font-weight: 800;">Chicken Burger</span>
+                                        <span class="text-primary">$115</span>
+                                    </h5>
+                                    <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid" src="assets/img/menu-8.jpg" alt="" style="width: 80px;">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span style="font-weight: 800;">Chicken Burger</span>
+                                        <span class="text-primary">$115</span>
+                                    </h5>
+                                    <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Dinner Menu -->
+                <div class="tab-pane fade" id="dinner" role="tabpanel" aria-labelledby="dinner-tab">
+                    <div class="row g-4">
+                        <div class="col-lg-6">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded" src="assets/img/menu-1.jpg" alt="" style="width: 80px;">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span style="font-weight: 800;">Chicken Burger</span>
+                                        <span class="text-primary">$115</span>
+                                    </h5>
+                                    <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded" src="assets/img/menu-4.jpg" alt="" style="width: 80px;">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span style="font-weight: 800;">Chicken Burger</span>
+                                        <span class="text-primary">$115</span>
+                                    </h5>
+                                    <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded" src="assets/img/menu-7.jpg" alt="" style="width: 80px;">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span style="font-weight: 800;">Chicken Burger</span>
+                                        <span class="text-primary">$115</span>
+                                    </h5>
+                                    <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6">
+                            <div class="menu-item d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded" src="assets/img/menu-8.jpg" alt="" style="width: 80px;">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span style="font-weight: 800;">Chicken Burger</span>
+                                        <span class="text-primary">$115</span>
+                                    </h5>
+                                    <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+
+    <!-- reservation section  -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 p-0 slide-up">
+                <div class="reservation-img">
+                    <img src="assets/img/video.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="col-md-6 slide-up" style="background-color: #0f172b;">
+                <div class="reservation-form mt-3">
+                    <span class="about-subtitle fs-4 ms-3">Reservation </span>
+                    <h2 class="menu-title text-white ms-3 bookatable">Book A Table Online</h2>
+                    <form class="p-3 booking-form">
+                        <div class="name-email d-flex">
+                            <div class="form-group col-md-5">
+                                <input type="text" class="form-control ps-3 rounded-0" id="name" placeholder="Your Name">
+                            </div>
+                            <div class="form-group col-md-5">
+                                <input type="email" class="form-control ps-3 rounded-0" id="email" placeholder="Your Email">
+                            </div>
+                        </div>
+                        <div class="form-group col-md-12 mt-3">
+                            <input type="tel" class="form-control phone-number ps-3 rounded-0" id="phone" placeholder="Your Phone Number">
+                        </div>
+                        <div class="date-time d-flex mt-3">
+                            <div class="form-group col-md-5">
+                                <input type="date" class="form-control rounded-0" id="date"> 
+                            </div>
+                            <div class="form-group col-md-5">
+                                <input type="time" class="form-control rounded-0" id="time">
+                            </div>
+                        </div>
+                        <div class="form-group mt-3">
+                            <input type="text" class="message-section ps-3 rounded-0" id="message" placeholder="Special Request">
+                        </div>
+                        <button type="submit" class="book-btn mt-3 rounded-0 fw-semibold" style="background-color: #fea116;">BOOK NOW</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- master chefs section  -->
+    <div class="container">
+        <div class="row">
+            <span class="menu-subtitle fs-3 text-center mt-5 fade-in">Team Members</span>
+            <h2 class="menu-title fs-1 text-center fade-in">Our Master Chefs</h2>
+
+            <div class="col-md-3 col-lg-3 col-md-6 col-sm-12">
+                <div class="chef-card border-0 p-3 slide-up">
+                    <div class="chef-img">
+                        <img src="assets/img/team-1.jpg" alt="Chef 1" class="rounded-circle img-fluid" width="100%">
+                        <div class="social-icons text-center mt-3">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <h5 class="m-0 fw-bold text-center">Full Name</h5>
+                    <p class="text-muted text-center">Designation</p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="chef-card border-0 p-3 slide-up">
+                    <div class="chef-img">
+                        <img src="assets/img/team-2.jpg" alt="Chef 1" class="rounded-circle img-fluid" width="100%">
+                        <div class="social-icons text-center mt-3">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <h5 class="m-0 fw-bold text-center">Full Name</h5>
+                    <p class="text-muted text-center">Designation</p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="chef-card border-0 p-3 slide-up">
+                    <div class="chef-img">
+                        <img src="assets/img/team-3.jpg" alt="Chef 1" class="rounded-circle img-fluid" width="100%">
+                        <div class="social-icons text-center mt-3">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <h5 class="m-0 fw-bold text-center">Full Name</h5>
+                    <p class="text-muted text-center">Designation</p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="chef-card border-0 p-3 slide-up">
+                    <div class="chef-img">
+                        <img src="assets/img/team-4.jpg" alt="Chef 1" class="rounded-circle img-fluid" width="100%">
+                        <div class="social-icons text-center mt-3">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <h5 class="m-0 fw-bold text-center">Full Name</h5>
+                    <p class="text-muted text-center">Designation</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- testimonial section  -->
+    <div class="container text-center">
+    <section id="testimonial" class="py-5 slide-up">
+            <span class="menu-subtitle fs-3 text-center mt-2">Testimonial</span>
+            <h2 class="menu-title fs-1 text-center">Our Clients Say!!!</h2>
+            <div id="testimonialCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="testimonial-card">
+                            <img src="assets/img/testimonial-1.jpg" alt="Customer 1" class="customer-img">
+                            <p class="testimonial-text">"Amazing food and great service! Highly recommend this place."</p>
+                            <h5 class="customer-name text-white">- John Doe</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial-card">
+                            <img src="assets/img/testimonial-2.jpg" alt="Customer 2" class="customer-img">
+                            <p class="testimonial-text">"A delightful experience! The ambiance was perfect."</p>
+                            <h5 class="customer-name text-white">- Jane Smith</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial-card">
+                            <img src="assets/img/testimonial-3.jpg" alt="Customer 3" class="customer-img">
+                            <p class="testimonial-text">"The best restaurant in town! I'll definitely be back."</p>
+                            <h5 class="customer-name text-white">- Michael Brown</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial-card">
+                            <img src="assets/img/testimonial-4.jpg" alt="Customer 4" class="customer-img">
+                            <p class="testimonial-text">"Incredible dishes with a touch of perfection!"</p>
+                            <h5 class="customer-name text-white">- Emily Davis</h5>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
+        </section>
+    </div>
+
+    <!-- footer section  -->
+    <footer class="footer-section fade-in-footer">
+        <div class="container" style="background-color: #0f172b;">
+            <div class="row">
+                <div class="col contact-option ms-3">
+                <h3 class="menu-subtitle fs-4 mt-5">Company</h3>
+                <ul class="p-0 contact-list">
+                    <li><a href=""><i class="fa-solid fa-angle-right"></i>About Us</a></li>
+                    <li><a href=""><i class="fa-solid fa-angle-right"></i>Contact Us</a></li>
+                    <li><a href=""><i class="fa-solid fa-angle-right"></i>Reservation</a></li>
+                    <li><a href=""><i class="fa-solid fa-angle-right"></i>Privacy Policy</a></li>
+                    <li><a href=""><i class="fa-solid fa-angle-right"></i>Terms & Conditions</a></li>
+                </ul>
+                </div>
+
+                <div class="col contact-option">
+                    <h3 class="menu-subtitle fs-4 mt-5">Contact</h3>
+                    <ul class="p-0">
+                        <li><a href=""><i class="fa-solid fa-location-dot"></i>123 Street, New York, USA</a></li>
+                        <li><a href=""><i class="fa-solid fa-phone"></i>+1 (123) 456-7890</a></li>
+                        <li><a href=""><i class="fa-solid fa-envelope"></i>info@example.com</a></li>
+                        <div class="social-logo">
+                        <i class="fa-brands fa-twitter social-logo"></i>
+                        <i class="fa-brands fa-facebook social-logo"></i>
+                        <i class="fa-brands fa-youtube social-logo"></i>
+                        <i class="fa-brands fa-linkedin-in social-logo"></i>
+                        </div>
+                    </ul>
+                </div>
+
+                <div class="col contact-option">
+                    <h3 class="menu-subtitle fs-4 mt-5">Opening Hours</h3>
+                    <ul class="p-0">
+                        <li class="text-white fs-5 fw-semibold">Monday - Saturday</li>
+                        <p class="text-white mt-2">9:00 AM - 9:00 PM</p>
+
+                        <li class="text-white fs-5 fw-semibold">Sunday</li>
+                        <p class="text-white mt-2">10:00 AM - 8:00 PM</p>
+                    </ul>
+                </div>
+
+                <div class="col contact-option me-4">
+                    <h3 class="menu-subtitle fs-4 mt-5">Newsletter</h3>
+                    <p class="text-white mt-4">Dolor amet sit justo amet elitr clita <br>ipsum elitr est.</p>
+                    <div class="input-group mt-4">
+                        <input type="text" class="form-control rounded-0 newsletter" placeholder="Enter your email">
+                        <button class="btn subscribe-btn rounded-0" type="button">SIGN UP</button>
+                    </div>
+                </div>
+                <div class="lastline"></div>
+
+            <div class="col">
+                <p class="text-white mt-3 copyright">© Restoran, All Right Reserved. Designed by <b>Shah Jash</b></p>
+            </div>
+        </div>
+    </footer>
+   
+    <button id="scrollTopBtn" class="scroll-top">
+        <img src="assets/img/thin-arrow.png" alt="scroll to top arrow">
+    </button>
+
+
+    <script src="assets/js/script.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
